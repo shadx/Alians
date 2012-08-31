@@ -598,13 +598,23 @@ body {
 .bye-menu li {
 	float:left;
 	text-align:left;
-	padding-left:49px;
-	padding-right:63px;
   margin-bottom: 25px;
 	line-height:45px;
 	font-weight:bold;
 	font-size:12px;
 	list-style: none;
+}
+#wrap .bye-menu .bye-menu_item1 {
+	padding: 0 50px 0 43px;
+}
+#wrap .bye-menu .bye-menu_item2 {
+	padding: 0 68px 0 63px;
+}
+#wrap .bye-menu .bye-menu_item3 {
+	padding: 0 58px 0 58px;
+}
+#wrap .bye-menu .bye-menu_item4 {
+	padding: 0 50px 0 42px;
 }
 .bye-menu li  a {
 	color:#ffffff;
@@ -672,7 +682,7 @@ body {
 }
 .bask_table TH {
   padding-left: 14px;
-  background: #62973e;
+  background: #046EB2;
   border-color: black;
   font: 12px/32px tahoma;
   color: white;
