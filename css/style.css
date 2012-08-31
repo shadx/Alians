@@ -65,7 +65,8 @@ body {
 #wrapper {
   width: 1098px;
   margin: 0 auto;
-  background: #EBEBEB;
+  /* background: #EBEBEB; F7F7F7 */
+  background: url(../images/main_bg.jpg) repeat-x 0 0 #EFEFEF;
   border-style: solid;
   border-color: #C8C8C8;
   border-width: 0 1px 1px 1px;
@@ -296,13 +297,13 @@ body {
 
 /*WRAP*/
 #wrap-main {
-	background:url(../images/bg.png) 0 0 repeat-x;
+	/* background:url(../images/bg.png) 0 0 repeat-x; */
 }
 #wrap {
-	width:960px;
-	margin:0 auto;
+	/* width:960px;
+	margin:0 auto; */
 	padding-top:18px;
-	min-height:60%;
+	/* min-height:60%; */
 }
 #wrap .menu {
 	background:url(../images/wrap-menu.png) 0 0 no-repeat;
@@ -360,27 +361,34 @@ body {
 }
 .left-slide ul {
 	list-style:none;
-	width:202px;
-	margin:68px 0 104px 0;
+	width: 170px;
+  border-style: solid;
+  border-width: 2px 1px 1px 2px;
+  border-color: #B2B2B2;
+  border-radius: 10px;
+	margin: 61px 0 104px 0;
+  padding: 27px 0;
 }
 .left-slide li {
-	padding: 6px 0;
-}
-.next {
-	width:17px;
-	height:10px;
-	background:url(../images/left-slide-control-bottom.png) 0 0  scroll no-repeat transparent;
-	position:absolute;
-	left:92px;
-	bottom:78px;
+	/* padding: 6px 0; */
+  margin: 14px 0;
+  text-align: center;
 }
 .prev {
-	width:17px;
-	height:10px;
-	background:url(../images/left-slide-control-top.png) 0 0  scroll no-repeat transparent;
+	width:16px;
+	height:22px;
+	background:url(../images/mainleft_slide-tarrow.png) no-repeat 0 0;
 	position:absolute;
-	left:92px;
-	top:48px;
+	left: 80px;
+	top:73px;
+}
+.next {
+	width:16px;
+	height:22px;
+	background:url(../images/mainleft_slide-barrow.png) no-repeat 0 0;
+	position:absolute;
+	left: 80px;
+	bottom: 115px;
 }
 /*end LEFT-SLIDE*/
 
@@ -417,18 +425,38 @@ body {
 	list-style:none;
 	position:relative;
 }
+.central-next {
+	width:23px;
+	height:23px;
+	background:url(../images/goods_slider-rarr.png) no-repeat 0 0;
+	position:absolute;
+	right:1px;
+	top:130px;
+}
+.central-prev {
+	width:23px;
+	height:23px;
+	background:url(../images/goods_slider-larr.png) no-repeat 0 0;
+	position:absolute;
+	left:-20px;
+	top:130px;
+}
 .article {
 	float:left;
-	width:222px;
+	width:218px;
 	padding-right:6px;
 	height:260px;
-	background:url(../images/article-fon.png) 0 0 no-repeat;
+	/* background:url(../images/article-fon.png) 0 0 no-repeat; */
+  background: white;
+  border: solid 1px #AFAEAE;
+  border-radius: 10px;
 	text-align:center;
 	margin: 19px 0 80px 18px;
+  box-shadow: 2px 2px 6px #BEBEBE;
 }
 .article a {
-	color:#333333;
-	font-size:13px;
+	color:#0166B0;
+	font-size:14px;
 }
 .article a:hover {
 	text-decoration:none;
@@ -441,11 +469,12 @@ body {
 	padding-top:3px;
 }
 .article-price {
-	text-shadow:1px 1px #ffffff;
+	/* text-shadow:1px 1px #ffffff;
 	margin-top:12px;
 	font-weight:bold;
   font-size: 15px;
-  font-family: arial;
+  font-family: arial; */
+  overflow: hidden;
 }
 .ruble {
 	width: 12px
@@ -455,42 +484,36 @@ body {
 	padding-right:85px;
 }
 .price {
-	color:#f65823;
+	float: left;
+  margin: 0 0 0 14px;
+  padding: 16px 0 0 34px;
+  background: url(../images/ico_item_bask.jpg) no-repeat 0 14px;
+  font: 14px/23px tahoma;
+  color: black;
+}
+.price SPAN {
+	display: block;
+  padding-right: 15px;
+  background: url(../images/item_rub.jpg) no-repeat 100% 7px;
 }
 .article-price input {
-	border:none;
-	width:35px;
-	height:31px;
-	background:url(../images/mini-cart.png) no-repeat;
+	float: right;
+  border:none;
+	height:33px;
+  margin-top: 10px;
+  padding: 0 12px;
+	background: url(../images/bask_but-bg.jpg) repeat-x 0 0;
+  border: none;
+  border-radius: 8px;
 	cursor: pointer;
+  font: bold 12px tahoma;
+  color: white;
 }
 .article-price input.blue_ico {
 	background:url(../images/mini-cart-blue.png) no-repeat;
 }
-.control {
-	width:82px;
-	height:38px;
-	background:url(../images/control.png) no-repeat;
-	margin-top:292px;
-	margin-left:330px;
-	position:relative;
-}
-.central-next {
-	width:36px;
-	height:36px;
-	background:url(../images/central-next.png) 0 0  scroll no-repeat transparent;
-	position:absolute;
-	right:1px;
-	top:2px;
-}
-.central-prev {
-	width:36px;
-	height:36px;
-	background:url(../images/central-prev.png) 0 0  scroll no-repeat transparent;
-	position:absolute;
-	left:2px;
-	top:2px;
-}
+
+
 /*end CENTRAL*/
 /*end WRAP*/
 
@@ -498,9 +521,17 @@ body {
 #footer {
   height: 76px;
   padding: 8px 0 0 0;
-  background: url(../images/bg_logo_footer.jpg) no-repeat right top;
+  /* background: url(../images/bg_logo_footer.jpg) no-repeat right top; */
+}
+#footer .logo_footer {
+  float: right;
+  display: block;
+  width: 163px;
+  height: 48px;
+  background: url(../images/logo_footer.png) no-repeat 0 0;
 }
 #footer UL {
+  margin-top: 15px;
   overflow: hidden;
 }
 #footer UL LI {
