@@ -54,7 +54,7 @@ body {
 	font-size: 12px;
 	color: #333333;
 	height: 100%;
-	background-color: #ffffff;
+	background: #E3E3E3;
 }
 .clear {
 	clear:both;
@@ -68,7 +68,7 @@ body {
   background: #EBEBEB;
   border-style: solid;
   border-color: #C8C8C8;
-  border-width: 0 1px;
+  border-width: 0 1px 1px 1px;
 }
 #wrapper .wrapper_cont {
   width: 1000px;
