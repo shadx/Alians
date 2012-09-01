@@ -1620,7 +1620,7 @@ I {
   margin-bottom: 15px;
 }
 #wrap .catalog-list .cod_art {
-	font: 13px Georgia;
+	font: 12px tahoma;
 	color: #545454;
 }
 
@@ -1672,36 +1672,38 @@ I {
 
 #wrap .catalog-list .description .div_2 {
   float: left;
-	width: 183px;
-	padding-left: 45px;
+	width: 150px;
+	margin-bottom: 13px;
+  padding-left: 55px;
 	height: 41px;
-	padding-top: 13px;
+	/* padding-top: 13px; */
 	background: url(../images/tovar_div_2.png) no-repeat 0 0;
+  border-radius: 10px;
 }
 #wrap .catalog-list .description .div_2 A {
   text-decoration: none;
-	font: 14px arial;
-	color: #333;
-	text-shadow: 1px 1px #fff;
+	font: bold 12px/41px arial;
+	color: white;
+	text-shadow: 1px 1px black;
 }
 #wrap .catalog-list .description .div_3 {
   float: left;
 	width: 210px;
 	height: 41px;
-	padding-left: 40px;
-	font: 28px/24px Tahoma;
-	color: #f65823;
-	background: url(../images/tovar_sum.png) no-repeat 0 0;
+	/* padding-left: 40px; */
+	font: bold 24px/24px Tahoma;
+	color: #0267B0;
+	/* background: url(../images/tovar_sum.png) no-repeat 0 0; */
 }
 #wrap .catalog-list .description .div_3 .txt_6 {
   padding-right: 15px;
-	
-  background: url(../images/tovar_rub.png) no-repeat 100% 11px;
+  /* background: url(../images/tovar_rub.png) no-repeat 100% 11px; */
 }
 #wrap .catalog-list .description .div_4 {
-  float: left;
+  float: right;
 	width: 200px;
 	height: 41px;
+  margin-right: 48px;
 	font: 12px Tahoma;
 	color: #545454;
 }
@@ -1734,7 +1736,7 @@ I {
   width: 360px;
 	padding: 10px 0px 10px 80px;
 	border: dashed 1px #8e8e8e;
-	font: 21px/30px Georgia;
+	font: 21px/30px tahoma;
 	color: #737373;
 	background: url(../images/tovar_head.png) no-repeat 10px 50%;
 }
@@ -1767,9 +1769,9 @@ I {
 	border-left: dashed 1px #8e8e8e;
 	width: 150px;
 	height: 40px;
-	font: bold 30px/40px arial;
+	font: bold 30px/50px arial;
 	color: #000;
-  background: url(../images/tovar_good.jpg) no-repeat 25% 50%;
+  background: url(../images/tovar_good.png) no-repeat 25% 50%;
 }
 #wrap .catalog-list .description_2 .mass_volum {
   width: 440px;
@@ -1809,7 +1811,7 @@ I {
 #wrap .catalog-list .description_2 .desc .desc_left .txt_7,
 #wrap .catalog-list .description_2 .desc .desc_right .txt_7 {
   font: 12px Tahoma;
-	color: #62973e;
+	color: #025C9E;
 }
 #wrap .catalog-list .description_2 .desc .desc_right {
 	margin-left: 210px;
