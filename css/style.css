@@ -501,7 +501,8 @@ body {
   border: solid 1px #AFAEAE;
   border-radius: 10px;
 	text-align:center;
-	margin: 19px 0 80px 18px;
+	/* margin: 19px 0 80px 18px; */
+  margin: 19px 18px 80px 0;
   box-shadow: 2px 2px 6px #BEBEBE;
 }
 .article a {

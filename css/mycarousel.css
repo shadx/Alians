@@ -1,0 +1,43 @@
+.main_scroll {
+  position: relative;
+  margin: 0 30px 0 20px;
+}
+.mycarousel {
+  
+}
+.mycarousel li {
+	/* position: relative; */
+  width: 218px;
+}
+.jcarousel-clip {
+	overflow: hidden;
+}
+.jcarousel-prev, .jcarousel-next {
+	width:23px;
+	height:23px;
+	position:absolute;
+	top:170px;
+}
+.jcarousel-prev:hover, .jcarousel-next:hover {
+	cursor: pointer;
+}
+.jcarousel-prev {
+	background:url(../images/goods_slider-larr.png) no-repeat 0 0;
+	left: -45px;
+}
+.jcarousel-next {
+	background:url(../images/goods_slider-rarr.png) no-repeat 0 0;
+	right: -30px;
+}
+.jcarousel-prev:hover, .jcarousel-next:hover, .jcarousel-prev-disabled, .jcarousel-next-disabled {
+	/* background-position:100% 0; */
+}
+
+
+.jcarousel-container-horizontal {
+    
+}
+.jcarousel-item-placeholder {
+  background: #fff;
+  color: #000;
+}
