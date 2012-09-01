@@ -718,7 +718,7 @@ body {
 /* cart2 begin */
 .bask_table {
   width: 100%;
-  margin: 31px 0 27px;
+  margin: 5px 0 27px;
   border-collapse: collapse;
   border: 1px solid black;
 }
@@ -924,7 +924,8 @@ body {
 .bask_form_oplata {
   margin: 33px 0 40px 0;
 }
-.bask_form_oplata .sub_head {
+.sub_head {
+  clear: both;
   margin-bottom: 12px;
   font: 18px arial;
   color: #b6afaf;
