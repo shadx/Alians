@@ -138,6 +138,9 @@ body {
   font: 11px/22px tahoma;
   color: white;
 }
+#header .header_panel .login2 {
+  background: url(../images/ico_login2.png) no-repeat 15px 0;
+}
 #header .header_panel .login A {
   color: white;
   text-decoration: underline;
@@ -160,6 +163,24 @@ body {
   color: #FFAE00;
   text-decoration: underline;
 }
+
+
+#header .header_panel .login A.link_login {
+  margin-right: 6px;
+  border-bottom: dashed 1px white;
+  text-decoration: none;
+}
+#header .header_panel .login A.link_login:hover {
+  border-color: #0269B1;
+  color: #FFAE00;
+  text-decoration: underline;
+}
+#header .header_panel .login A.link_register {
+  margin-left: 6px;
+}
+
+
+
 
 #header .header {
   margin: 44px 0 44px 0;
@@ -264,7 +285,20 @@ body {
   left: 0;
   display: none;
 }
+#top_menu UL LI .act_pointer2 {
+  background: url(../images/pointer_top-menu2.png) no-repeat 50% 0;
+  width: 100%;
+  height: 14px;
+  position: absolute;
+  z-index: 999;
+  bottom: -14px;
+  left: 0;
+  display: none;
+}
 #top_menu UL LI.act .act_pointer {
+  display: block;
+}
+#top_menu UL LI.act2 .act_pointer2 {
   display: block;
 }
 #top_menu UL LI A {
@@ -301,7 +335,8 @@ body {
   margin: 8px 24px 0 0;
   background: url(../images/bg_but-topmenu.jpg) repeat-x 0 0;
   font: 12px/25px tahoma;
-  color: #4A5E6C;
+  color: white;
+  text-shadow:1px 1px gray;
 }
 /*NAV*/
 
@@ -409,11 +444,8 @@ body {
 	padding-top:9px;
 }
 .new {
-	font-family: arial,"PF BeauSans Pro", sans;
-	font-size:18px;
-	font-weight:bold;
-	text-transform:uppercase;
-  color: #FEB602;
+	font: bold 26px tahoma;
+	color: #FEB602;
 	padding-left:16px;
 }
 .new:hover {
@@ -424,13 +456,20 @@ body {
 }
 .all {
 	float:right;
-	color:#29b5f9;
-	font-weight:bold;
-	line-height:13px;
+  display: block;
+  margin-top: 10px;
+  padding-left: 13px;
+  background: url(../images/all_arrow.png) no-repeat 0 3px;
+  font: 12px tahoma;
+	color:#0677B4;
 	margin-right:6px;
 }
 .all:hover {
 	text-decoration:none;
+}
+.main_goods_list {
+  position:relative;
+  height: 380px;
 }
 .article-row {
 	list-style:none;
@@ -442,7 +481,7 @@ body {
 	background:url(../images/goods_slider-rarr.png) no-repeat 0 0;
 	position:absolute;
 	right:1px;
-	top:130px;
+	top:170px;
 }
 .central-prev {
 	width:23px;
@@ -450,7 +489,7 @@ body {
 	background:url(../images/goods_slider-larr.png) no-repeat 0 0;
 	position:absolute;
 	left:-20px;
-	top:130px;
+	top:170px;
 }
 .article {
 	float:left;
