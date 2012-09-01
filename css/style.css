@@ -1074,7 +1074,7 @@ body {
 .left_filter {
   margin-top: 33px;
   padding: 14px 4px 14px 14px;
-  background: #D8D8D8;
+  background: url(../images/left_filter-bg.jpg) repeat-x 0 0 #E4E4E4;
   border: solid 1px #B2B2B2;
   border-radius: 10px;
 }
@@ -1136,6 +1136,9 @@ body {
 .left_filter .filter_but {
   margin-top: 12px;
 }
+.left_filter .filter_but INPUT {
+  font: bold 12px tahoma;
+}
 
 
 
@@ -1148,8 +1151,8 @@ body {
   width: 212px;
   height: 145px;
   margin: 0 14px 14px 0;
-  padding: 5px;
-  border: solid 1px #d0d8dc;
+  padding: 14px 5px 2px 5px;
+  border: dashed 1px #8E8E8E;
   text-align: center;
 }
 .categories_list .category_item .cat_foto {
@@ -1158,11 +1161,15 @@ body {
 .categories_list .category_item .cat_foto IMG {
   /* float: left; */
 }
-.categories_list .category_item A {
+.categories_list .category_item A.cat_link {
   display: block;
-  font: 18px arial;
-  color: #004f85;
+  margin: 20px 0 0 5px;
+  padding-left: 13px;
+  background: url(../images/category_item-arrow.png) no-repeat 0 4px;
+  font: 16px tahoma;
+  color: black;
   text-decoration: none;
+  text-align: left;
 }
 .categories_list .category_item A:hover {
   text-decoration: underline;
@@ -1431,14 +1438,14 @@ I {
 	color: #05a0ec;
 }
 #bottom_slide {
-  margin-top: 20px;
+  margin: 20px 0 40px 0;
   overflow: hidden;
 }
 #bottom_slide .slide_block {
   position: relative;
   margin: 0 auto;
 	padding: 16px 0;
-  background: #C4C4C4;
+  background: url(../images/bottom_slide-bg.jpg) repeat-x 0 0 #CFCFCF;
   border-style: solid;
   border-width: 2px 1p 1px 2px;
   border-color: #B2B2B2;
