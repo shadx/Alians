@@ -66,7 +66,7 @@ body {
   width: 1098px;
   margin: 0 auto;
   /* background: #EBEBEB; F7F7F7 */
-  background: url(../images/main_bg.jpg) repeat-x 0 0 #EFEFEF;
+  background: url(../images/main_bg2.jpg) repeat-x 0 0 #EFEFEF;
   box-shadow: 0px 0px 40px #949494;
   border-style: solid;
   border-color: #C8C8C8;
@@ -655,6 +655,10 @@ body {
 	font: 26px tahoma;
 	/* text-transform:uppercase; */
 }
+#wrap .ico_lk {
+	padding-left: 25px;
+  background: url(../images/ico_lk.png) no-repeat 0 7px;
+}
 #wrap .cart-in2 {
 	margin: 15px 0 10px 0;
 	font: 16px tahoma;
@@ -1050,7 +1054,7 @@ body {
 .left_col {
   float: left;
   width: 231px;
-  padding-top: 25px;
+  padding-top: 5px;
 }
 .center_col {
   margin-left: 245px;
@@ -1248,16 +1252,18 @@ body {
   
 }
 .lk_block .center_col .table_lk_zakazy TR:hover TD {
-  background: #62973e;
+  background: #0981B6;
   color: white;
 }
 .lk_block .center_col .table_lk_zakazy TH {
+  background: #FAFAFA;
   text-align: left;
   font-weight: normal;
   border: 1px solid black;
   padding: 0 0 0 14px;
 }
 .lk_block .center_col .table_lk_zakazy TD {
+  background: #FCFCFC;
   text-align: left;
   font-weight: normal;
   border: 1px solid black;
@@ -1298,23 +1304,25 @@ body {
   
 }
 .lk_block .center_col .table_lk_zakazy2 TR:hover TD {
-  background: #62973e;
+  background: #0981B6;
   color: white;
 }
 .lk_block .center_col .table_lk_zakazy2 TH {
+  background: #FAFAFA;
   text-align: left;
   font-weight: normal;
   border: 1px solid black;
   padding: 0 0 0 14px;
 }
 .lk_block .center_col .table_lk_zakazy2 TD {
+  background: #FAFAFA;
   text-align: left;
   font-weight: normal;
   border: 1px solid black;
   padding: 0 0 0 14px;
 }
 .lk_block .center_col .table_lk_zakazy2 TD A {
-  color: #62973e;
+  color: #0981B6;
 }
 .lk_block .center_col .table_lk_zakazy2 TR:hover A {
   color: white;
@@ -1322,8 +1330,8 @@ body {
 .lk_block .center_col .table_lk_zakazy2 TR:hover A:hover {
   text-decoration: none;
 }
-.lk_block .center_col .table_lk_zakazy2 .grey {
-  background: #e8e8e8;
+.lk_block .center_col .table_lk_zakazy2 .grey TD {
+  background: #E8E8E8;
 }
 
 .lk_block .center_col .table_lk_zakazy2 .tzakazy_col1 {
@@ -1355,6 +1363,11 @@ body {
 .lk_block .center_col .lk_but {
   margin-bottom: 30px;
 }
+.lk_block .center_col .lk_goods_but {
+  text-align: left;}
+.lk_block .center_col .lk_goods_but INPUT {
+  width: 185px;
+}
 
 
 /* lk_zakazy - end */
@@ -1379,7 +1392,7 @@ body {
   
 }
 .lk_block .center_col .table_lk_urik TR:hover TD {
-  background: #62973e;
+  background: #0981B6;
   color: white;
 }
 .lk_block .center_col .table_lk_urik TH {
@@ -1999,7 +2012,7 @@ I {
   margin: 0 0 51px 0; 
 }
 .lk_block .center_col .table_lk_oplaty TR:hover TD {
-  background: #62973e;
+  background: #0980B5;
   color: white;
 }
 .lk_block .center_col .table_lk_oplaty TH {
@@ -2009,13 +2022,14 @@ I {
   padding: 0 0 0 17px;
 }
 .lk_block .center_col .table_lk_oplaty TD {
+  background: #F6F6F6;
   text-align: left;
   font-weight: normal;
   border: 1px solid black;
   padding: 0 0 0 17px;
 }
-.lk_block .center_col .table_lk_oplaty .grey {
-  background: #e8e8e8;
+.lk_block .center_col .table_lk_oplaty .grey TD {
+  background: #E8E8E8;
 }
 .lk_block .center_col .table_lk_oplaty .date {
   width: 105px;
@@ -2039,8 +2053,8 @@ I {
 .center_col {
 }
 .center_col .create_a_password {
-  font: 18px arial;
-  color: #a6a49f;
+  font: 18px tahoma;
+  color: #B6AFAF;
   margin: 0 0 21px 0;
 }
 .center_col .form_row {
@@ -2085,7 +2099,7 @@ I {
   margin: 0 0 9px 0;
 }
 .profile .agreement {
-  margin: 0 0 18px 145px;
+  margin: 0 0 18px 112px;
 }
 .profile .textarea {
   background: url(../images/bg_textarea.png) no-repeat 0 0;
@@ -2099,6 +2113,9 @@ I {
 }
 .profile .text_pole {
   margin: 0 0 12px 0;
+}
+.profile .text_pole TEXTAREA {
+  margin-left: 108px;
 }
 .profile .form_row LABEL {
   float: left;
@@ -2119,7 +2136,7 @@ I {
   border: none;
   font: 12px/24px arial;
   color: #545454;
-  margin: 0 8px 0 100px;
+  margin: 0 8px 0 108px;
 }
 .text_field_average {
   width: 79px;
@@ -2172,3 +2189,14 @@ I {
 
 
 /* lk_pers */
+
+
+.form_change_pass {
+  margin-bottom: 300px;
+}
+#wrap .form_change_pass LABEL {
+  font: bold 12px tahoma;
+}
+#wrap .form_change_pass .text_field {
+  margin: 0;
+}
