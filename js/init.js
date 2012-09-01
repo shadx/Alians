@@ -24,4 +24,14 @@ $(document).ready(function(){
     vertical: true,
     scroll: 2
   });
+  
+  $('#big_slider').bxSlider({
+    auto: true,
+    autoControls: true,
+    captions: true,
+    pager: true,
+    stopText: 'Слайд шоу',
+    startText: 'Слайд шоу'
+    // mode: 'fade'
+  });
 });

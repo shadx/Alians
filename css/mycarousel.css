@@ -16,7 +16,7 @@
 	width:23px;
 	height:23px;
 	position:absolute;
-	top:170px;
+	top:140px;
 }
 .jcarousel-prev:hover, .jcarousel-next:hover {
 	cursor: pointer;
@@ -49,7 +49,7 @@
 }
 .page_scroll .jcarousel-prev {
 	background:url(../images/goods_slider-larr.png) no-repeat 0 0;
-	top: 130px;
+	top: 110px;
   left: -35px;
 }
 .page_scroll .jcarousel-next {

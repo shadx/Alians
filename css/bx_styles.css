@@ -1,0 +1,119 @@
+/* @override http://localhost/bxslider_v3_plugin/css/styles.css */
+
+/*
+ * To change the color scheme of slider change each 
+ * background property for each of the five styles below
+ */
+
+/*next button*/
+.main-slide .bx-next {
+	position:absolute;
+	z-index: 90;
+	right: 12px;
+	top: 132px;
+  width: 65px;
+	height: 64px;
+	background: url(../images/main-control-right.png) 0 0 no-repeat;
+  text-indent: -999999px;
+}
+
+/*previous button*/
+.main-slide .bx-prev {
+	position:absolute;
+	z-index: 90;
+	left: 12px;
+	top: 132px;
+  width: 65px;
+	height: 64px;
+	background: url(../images/main-control-left.png) 0 0 no-repeat;
+  text-indent: -999999px;
+}
+
+/*pager links*/
+.main-slide .bx-pager {
+  position: absolute;
+  z-index: 999;
+  bottom: 19px;
+  left: 23px;
+  overflow: hidden;
+}
+.main-slide .bx-pager a {
+	float: left;
+  display: block;
+  margin-right: 9px;
+  width: 40px;
+	background: url(../images/big_slider-yellow_bg.jpg) repeat-x 0 0;
+  border-radius: 7px;
+	font: 12px/31px tahoma;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+
+/*
+ * End color scheme styles
+ */
+
+
+/*next/prev button hover state*/
+.main-slide .bx-next:hover,
+.main-slide .bx-prev:hover {
+	background-position: 0 0;
+}
+
+/*pager links hover and active states*/
+.main-slide .bx-pager .pager-active,
+.main-slide .bx-pager a:hover {
+	background: url(../images/big_slider-blue_bg.jpg) repeat-x 0 0;
+  font-weight: bold;
+}
+
+/*pager wrapper*/
+.main-slide .bx-pager {
+	text-align:center;
+	padding-top: 7px;
+	font-size:12px;
+	color:#666;
+}
+
+/*captions*/
+.main-slide .bx-captions {
+	position: absolute;
+  z-index: 999;
+  top: 124px;
+  left: 110px;
+  font: 32px tahoma;
+  color: white;
+  text-shadow: 1px 1px 10px black;
+}
+
+
+
+/*auto controls*/
+.main-slide .bx-auto {
+	position: absolute;
+  z-index: 999;
+  bottom: 19px;
+  right: 23px;
+}
+.main-slide .bx-auto A {
+	display: block;
+	width: 96px;
+  border-radius: 7px;
+  font: bold 12px/31px tahoma;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+/*auto start button*/
+.main-slide .bx-auto .start {
+	background: url(../images/big_slider-yellow_bg.jpg) repeat-x 0 0;
+}
+
+/*auto stop button*/
+.main-slide .bx-auto .stop {
+	background: url(../images/big_slider-blue_bg.jpg) repeat-x 0 0;
+}

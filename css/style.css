@@ -365,9 +365,25 @@ body {
 	list-style: none;
 }
 .main-slide {
-	position:relative;
+	position: relative;
+  border-radius: 9px;
+  width: 1000px;
+  height: 341px;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px gray;
 }
-.main-next {
+.main-slide UL {
+	width: 1000px;
+  height: 341px;
+  overflow: hidden;
+}
+.main-slide LI {
+	position: relative;
+}
+.main-slide LI IMG {
+	border-radius: 9px;
+}
+/* .main-next {
 	width:57px;
 	height:57px;
 	background:url(../images/main-control-right.png) 0 0  scroll no-repeat transparent;
@@ -382,7 +398,7 @@ body {
 	position:absolute;
 	left:12px;
 	top:132px;
-}
+} */
 .active-main {
 	width:160px;
 	background:url(../images/main-shadow.png);
