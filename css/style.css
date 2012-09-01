@@ -556,6 +556,7 @@ body {
 }
 #footer UL LI.act A {
   color: white;
+  text-decoration: none;
 }
 #footer UL A {
   display: block;
@@ -610,11 +611,15 @@ body {
 .to-main:hover {
 	text-decoration:none;
 }
-.cart-in {
+#wrap .cart-in {
 	margin-top:16px;
-	font-family: tahoma;
-	font-size:26px;
+	font: 26px tahoma;
 	/* text-transform:uppercase; */
+}
+#wrap .cart-in2 {
+	margin: 15px 0 10px 0;
+	font: 16px tahoma;
+  color: black;
 }
 #wrap .bye-menu {
 	background:url(../images/bye-menu-fon.png) 0 0 no-repeat;
@@ -823,7 +828,7 @@ body {
   font: 14px arial;
   color: #545454;
 }
-.promo_code .text_field {
+.text_field {
   height: 24px;
   padding: 0 10px;
   background: url(../images/field_bg.png) no-repeat 0 0;
@@ -873,7 +878,7 @@ body {
   padding: 0 17px;
   border: none;
   border-radius: 8px;
-  font: 14px/33px arial;
+  font: bold 12px/33px arial;
   cursor: pointer;
 }
 .big_orange_but {
@@ -1419,10 +1424,61 @@ I {
 #contact {
   padding: 20px 0 0 0;
 }
+#contact .contacts_form {
+  margin: 15px 0 40px 0;
+}
+#contact .contacts_form .contacts_but {
+  margin-left: 100px;
+}
+#contact .contacts_form .form_row .text_field {
+  margin-left: 100px;
+  background: url(../images/field_bg3.png) no-repeat 0 0;
+  width: 272px;
+  height: 25px;
+  border: none;
+  padding: 0 0 0 10px;
+}
 #contact .contact_head {
   margin: 20px 0 20px 0;
   font: bold 24px/24px arial;
 	color: #ffcc33;
+}
+#contact P {
+  font: 12px/25px tahoma;
+}
+#contact .map {
+  margin: 25px 0;
+}
+#contact .contact_info {
+  margin-top: 2px;
+}
+#contact .ico_phone,
+#contact .ico_mail,
+#contact .ico_skype {
+  padding: 7px 0 7px 25px;
+}
+#contact .ico_phone A,
+#contact .ico_mail A,
+#contact .ico_skype A {
+  color: black;
+  text-decoration: none;
+}
+#contact .ico_phone A:hover,
+#contact .ico_mail A:hover,
+#contact .ico_skype A:hover {
+  text-decoration: underline;
+}
+#contact .ico_phone {
+  background: url(../images/ico_contact-phone.png) no-repeat 0 6px;
+}
+#contact .ico_mail {
+  background: url(../images/ico_contact-mail.png) no-repeat 0 8px;
+}
+#contact .ico_skype {
+  background: url(../images/ico_contact-skype.png) no-repeat 0 5px;
+}
+#contact .map IMG {
+  border: solid 1px #979797;
 }
 #contact .txt_1 {
   font: 13px/30px arial;
@@ -1437,6 +1493,7 @@ I {
   font: italic 14px arial;
 	color: #05a0ec;
 }
+
 #bottom_slide {
   margin: 20px 0 40px 0;
   overflow: hidden;
@@ -1936,44 +1993,44 @@ I {
   height: 1px;
   margin: 37px 0 37px 0;
 }
-.center_col .profile {
+.profile {
 }
-.center_col .profile .form_row {
+.profile .form_row {
   overflow: hidden;
   margin: 0 0 20px 0;
 }
-.center_col .profile .form_row_mail {
+.profile .form_row_mail {
   margin: 0 0 9px 0;
 }
-.center_col .profile .agreement {
+.profile .agreement {
   margin: 0 0 18px 145px;
 }
-.center_col .profile .textarea {
+.profile .textarea {
   background: url(../images/bg_textarea.png) no-repeat 0 0;
   width: 391px;
   height: 143px;
   border: none;
   margin: 0 0 0 100px;
 }
-.center_col .profile .bask_but {
+.profile .bask_but {
   margin: 0 0 80px 150px;
 }
-.center_col .profile .text_pole {
+.profile .text_pole {
   margin: 0 0 12px 0;
 }
-.center_col .profile .form_row LABEL {
+.profile .form_row LABEL {
   float: left;
   font: 12px/24px arial;
   color: #black;
   width: 0;
   white-space: nowrap;
 }
-.center_col .profile .form_row .text_field {
+.form_row .text_field {
   margin: 0 0 0 108px;
   font: 12px/24px arial;
   color: #545454;
 }
-.center_col .text_field_small {
+.text_field_small {
   width: 35px;
   height: 24px;
   background: url(../images/text_field_small.png) no-repeat 0 0;
@@ -1982,7 +2039,7 @@ I {
   color: #545454;
   margin: 0 8px 0 100px;
 }
-.center_col .text_field_average {
+.text_field_average {
   width: 79px;
   height: 24px;
   background: url(../images/text_field_average.png) no-repeat 0 0;
@@ -1991,7 +2048,7 @@ I {
   color: #545454;
   margin: 0 6px 0 0;
 }
-.center_col .text_field_big {
+.text_field_big {
   height: 24px;
   background: url(../images/text_field_big.png) no-repeat 0 0;
   border: none;
