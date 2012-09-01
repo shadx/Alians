@@ -67,6 +67,7 @@ body {
   margin: 0 auto;
   /* background: #EBEBEB; F7F7F7 */
   background: url(../images/main_bg.jpg) repeat-x 0 0 #EFEFEF;
+  box-shadow: 0px 0px 40px #949494;
   border-style: solid;
   border-color: #C8C8C8;
   border-width: 0 1px 1px 1px;
@@ -925,7 +926,7 @@ body {
 }
 .bask_form_oplata .sub_head {
   margin-bottom: 12px;
-  font: 20px arial;
+  font: 18px arial;
   color: #b6afaf;
 }
 .bask_form_oplata .form_row {
@@ -933,7 +934,7 @@ body {
 }
 .bask_form_oplata .form_row LABEL {
   margin-right: 17px;
-  font: 14px arial;
+  font: bold 12px arial;
   color: #545454;
 }
 .bask_form_oplata .form_row SELECT {
@@ -984,8 +985,8 @@ body {
 }
 .bask_form_oplata .bask_but A {
   margin-right: 21px;
-  font: 14px/35px arial;
-  color: #62973e;
+  font: 12px/35px arial;
+  color: #0267B0;
 }
 .bask_form_oplata .bask_but A:hover {
   text-decoration: none;
