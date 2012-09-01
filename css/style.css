@@ -129,6 +129,7 @@ body {
 }
 
 #header .header_panel .login {
+  width: 190px;
   float: right;
   margin-top: 7px;
   padding-left: 27px;
@@ -142,6 +143,9 @@ body {
 }
 #header .header_panel .login A:hover {
   color: #FFAE00;
+}
+#header .header_panel .login .hello {
+  float: right;
 }
 #header .header_panel .login A.logout {
   float: right;
@@ -558,6 +562,9 @@ body {
   font: 12px/33px tahoma;
   color: #0166B0;  
 }
+#footer UL A:hover {
+  text-decoration: none;  
+}
 /*footer*/
 /*CART-FIRST*/
 .go-to {
@@ -603,10 +610,9 @@ body {
 }
 .cart-in {
 	margin-top:16px;
-	font-family:"Myriad Pro";
-	font-size:18px;
-	font-weight:bold;
-	text-transform:uppercase;
+	font-family: tahoma;
+	font-size:26px;
+	/* text-transform:uppercase; */
 }
 #wrap .bye-menu {
 	background:url(../images/bye-menu-fon.png) 0 0 no-repeat;
@@ -648,9 +654,15 @@ body {
 	text-shadow:1px 1px #4e7233;
 	text-decoration:none;
 }
+.bye-menu li A:hover {
+	text-decoration: underline;
+}
 .log {
 	margin-top:25px;
 	margin-bottom:170px;
+}
+.log TD {
+	padding: 5px 15px 5px 0;
 }
 .log label {
 	font-size:12px;
@@ -668,17 +680,17 @@ body {
   line-height:26px;
 }
 .log button {
-	background:url(../images/button-log.png) 0 0 no-repeat;
-	width:109px;
-	height:35px;
-	border:none;
-	font-size:12px;
-	font-family:arial,Calibri;
-	font-weight:bold;
-	text-shadow:1px 1px #ffffff;
-	margin-top:25px;
-	cursor:pointer;
+	height: 33px;
+  margin-top: 10px;
+  padding: 0 17px;
+  background: url(../images/blue_but-big.jpg) repeat-x 0 0;
+  border: none;
+  border-radius: 8px;
+  font: 14px/33px arial;
+  color: white;
+  cursor: pointer;
 }
+
 /*end CART-FIRST*/
 
 
@@ -847,7 +859,7 @@ body {
   text-decoration: none;
 }
 .big_but {
-  height: 35px;
+  height: 33px;
   padding: 0 17px;
   border: none;
   border-radius: 8px;
