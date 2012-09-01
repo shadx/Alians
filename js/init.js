@@ -8,4 +8,14 @@ $(document).ready(function(){
     wrap: 'circular',
     auto: 0
   });
+  
+  $("#scroll-3").jcarousel({
+    wrap: 'circular',
+    auto: 0
+  });
+  
+  $("#scroll-4").jcarousel({
+    wrap: 'circular',
+    auto: 0
+  });
 });

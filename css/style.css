@@ -1557,7 +1557,7 @@ I {
 #bottom_slide .slide_block {
   position: relative;
   margin: 0 auto;
-	padding: 16px 0;
+	padding: 16px 15px 16px 18px;
   background: url(../images/bottom_slide-bg.jpg) repeat-x 0 0 #CFCFCF;
   border-style: solid;
   border-width: 2px 1p 1px 2px;
@@ -1570,6 +1570,7 @@ I {
 }
 #bottom_slide .slide_block UL LI {
   float: left;
+  width: 138px;
   margin: 0 11px;
 }
 #bottom_slide .slide_block UL LI IMG {

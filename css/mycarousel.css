@@ -41,3 +41,42 @@
   background: #fff;
   color: #000;
 }
+
+
+.page_scroll {
+  position: relative;
+  margin: 0 50px 0 0px;
+}
+.page_scroll .jcarousel-prev {
+	background:url(../images/goods_slider-larr.png) no-repeat 0 0;
+	top: 130px;
+  left: -35px;
+}
+.page_scroll .jcarousel-next {
+	background:url(../images/goods_slider-rarr.png) no-repeat 0 0;
+	top: 130px;
+  right: -30px;
+}
+
+
+.slide_block {
+  position: relative;
+}
+.slide_block .jcarousel-prev {
+  display: block;
+	position: absolute;
+	top: 32px;
+	left: -10px;
+  width: 11px;
+	height: 16px;
+	background: url(../images/botslider_larr.png) no-repeat 0 0;
+}
+.slide_block .jcarousel-next {
+  display: block;
+	position: absolute;
+	top: 32px;
+	right: -7px;
+  width: 11px;
+	height: 16px;
+  background: url(../images/botslider_rarr.png) no-repeat 0 0;
+}
