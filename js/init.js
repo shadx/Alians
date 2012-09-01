@@ -18,4 +18,10 @@ $(document).ready(function(){
     wrap: 'circular',
     auto: 0
   });
+  
+  $("#scroll-5").jcarousel({
+    wrap: 'circular',
+    vertical: true,
+    scroll: 2
+  });
 });

@@ -400,23 +400,31 @@ body {
 	text-shadow:1px 1px #4e7233;
 	text-decoration:none;
 }
+
 /*LEFT-SLIDE*/
 .left-slide {
 	float:left;
 	position:relative;
 }
-.left-slide ul {
-	list-style:none;
-	width: 170px;
+.left-slide .vertical_slider {
+	width: 155px;
   border-style: solid;
   border-width: 2px 1px 1px 2px;
   border-color: #B2B2B2;
   border-radius: 10px;
 	margin: 61px 0 104px 0;
-  padding: 27px 0;
+  padding: 20px 0 30px 15px;
+}
+.left-slide .vertical_slider UL {
+	list-style:none;
+	width: 137px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 .left-slide li {
 	/* padding: 6px 0; */
+  height: 76px;
   margin: 14px 0;
   text-align: center;
 }
