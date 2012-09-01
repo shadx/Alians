@@ -509,7 +509,8 @@ body {
 .article-price input {
 	float: right;
   border:none;
-	height:33px;
+	width: 86px;
+  height:33px;
   margin-top: 10px;
   padding: 0 12px;
 	background: url(../images/bask_but-bg.jpg) repeat-x 0 0;
@@ -595,7 +596,7 @@ body {
 }
 .top_navi A.last_navi {
   padding-right: 20px;
-  background: url(../images/go-to.png) no-repeat 100% 5px;
+  background: url(../images/top_navi-arrow.png) no-repeat 100% 5px;
 }
 
 .last {
@@ -622,7 +623,7 @@ body {
 #wrap .selitem_2 {
 	background:url(../images/bye-menu-fon2.png) 0 0 no-repeat;
 }
-#wrap .selitem_2 {
+#wrap .selitem_3 {
 	background:url(../images/bye-menu-fon3.png) 0 0 no-repeat;
 }
 #wrap .selitem_4 {
@@ -718,6 +719,7 @@ body {
   width: 100%;
   margin: 31px 0 27px;
   border-collapse: collapse;
+  border: 1px solid black;
 }
 .bask_table TH {
   padding-left: 14px;
@@ -726,6 +728,9 @@ body {
   font: 12px/32px tahoma;
   color: white;
   text-align: left;
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+  border-color: black;
 }
 .bask_table TH.baskcol_1 {
   width: 90px;
@@ -744,11 +749,15 @@ body {
 }
 .bask_table TD {
   padding: 6px 0 6px 14px;
+  background: #F5F5F5;
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+  border-color: black;
   font: 12px tahoma;
   color: #000101;
 }
 .bask_table .row_bg TD {
-  background: #e8e8e8;
+  background: #E8E8E8;
 }
 .bask_table .bask_code {
   padding-left: 0;
@@ -840,20 +849,20 @@ body {
 }
 
 .bask_itogo {
-  font: 14px/35px arial;
+  font: 12px/35px arial;
 }
 .bask_itogo .itogo_head {
   margin-bottom: 14px;
-  font: 26px tahoma;
+  font: 24px tahoma;
   color: black;
 }
-.bask_itogo .itogo_head SPAN {
-  font: 26px tahoma;
-  color: #6ca047;
+.bask_itogo .itogo_head STRONG {
+  font: bold 24px tahoma;
+  color: #0267B0;
 }
 .bask_itogo A {
   margin-right: 21px;
-  color: #62973e;
+  color: #0267B0;
 }
 .bask_itogo A:hover {
   text-decoration: none;
@@ -873,9 +882,21 @@ body {
 }
 
 .pohoj {
+  position: relative;
   margin: 60px 0 80px 0;
-  overflow: hidden;
+  height: 250px;
 }
+#wrap .pohoj .article-row .article {
+  margin-bottom: 10px;
+}
+
+#wrap .pohoj .central-next {
+	right:15px;
+}
+#wrap .pohoj .central-prev {
+	left:-35px;
+}
+
 .pohoj .pohoj_head {
   margin-bottom: 20px;
   overflow: hidden;
