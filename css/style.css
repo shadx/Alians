@@ -1062,6 +1062,9 @@ body {
 .left_menu LI UL LI.act_submenu {
   background: url(../images/left_menu-arrow_over-sub.png) no-repeat 8px 10px;
 }
+.left_menu LI UL LI.act_submenu A {
+  color: #118830;
+}
 .left_menu LI UL LI A {
   padding: 0 0 0 25px;
   color: #4A92C8;
@@ -1796,50 +1799,90 @@ I {
   margin: 10px 10px 10px 0;
 }
 
-#wrap .catalog_goods_list .center_col .catalog_sort_block {
+
+
+
+
+
+
+#wrap .sort_block {
+  margin-bottom: 10px;
+  font: 12px/24px tahoma;
+  color: #545454;
   overflow: hidden;
 }
-#wrap .catalog_goods_list .center_col .sort_result {
-  margin: 13px 0 0 340px;
-}
-#wrap .catalog_goods_list .center_col .catalog_sort {
+#wrap .sort_block .catalog_sort P {
   float: left;
-  width: 320px;
-	height: 35px;
-	overflow: hidden;
+}
+#wrap .sort_block .catalog_sort UL {
+  float: left;
+  overflow: hidden;
+}
+#wrap .sort_block .catalog_sort UL LI {
+  float: left;
+  margin: 0 10px;
+  padding: 0 10px;
+}
+#wrap .sort_block .catalog_sort UL LI A {
+  border-bottom: dashed 1px #0778B4;
+  color: #0778B4;
+  text-decoration: none;
+}
+#wrap .sort_block .catalog_sort UL LI A:hover {
+  border-color: #F1F1F1;
+  text-decoration: underline;
+}
+#wrap .sort_block .catalog_sort UL LI.act {
   background: url(../images/sort-bg.jpg) repeat-x 0 0;
-  border-top: solid 1px #ebebeb;
+  border-radius: 5px;
 }
-#wrap .catalog_goods_list .center_col .catalog_sort UL {
-  overflow: hidden;
-} 
-#wrap .catalog_goods_list .center_col .catalog_sort .sort {
-  list-style: none;
+#wrap .sort_block .catalog_sort UL LI.act A {
+  border-bottom: none;
+  color: white;
 }
-#wrap .catalog_goods_list .center_col .catalog_sort .sort .sort_to,
-#wrap .catalog_goods_list .center_col .catalog_sort .sort_to,
-#wrap .catalog_goods_list .center_col .catalog_sort .sort  LI {
-  float: left;
-	padding: 10px 10px 10px 10px;
+#wrap .sort_block .catalog_sort UL LI.act A:hover {
+  text-decoration: none;
 }
-#wrap .catalog_goods_list .center_col .catalog_sort A {
-  font: bold 12px arial;
-	color: #68a352;
-	text-shadow: 1px 1px #fff;
-	text-decoration: none;
-	background: url(../images/sort_to_line.png) repeat-x 0 100%;
+#wrap .sort_block .sort_result {
+  float: right;
 }
-#wrap .catalog_goods_list .center_col .catalog_sort .sort .act {
-  display: block;
-	text-shadow: 1px 1px #fff;	
-  background: url(../images/catalog_sort_act.jpg) no-repeat 0 0;
+
+
+
+
+#wrap .catalog_pager {
+  margin-top: 20px;
+  font: 14px tahoma;
+  color: #0166B0;
+  text-align: center;
 }
-#wrap .catalog_goods_list .center_col .catalog_sort .sort .act A {
-	font: bold 12px arial;
-	color: #000;
-	text-decoration: none;
-	background: none;
+#wrap .catalog_pager A {
+  padding: 0 7px;
+  font: 14px tahoma;
+  color: #0166B0;
 }
+#wrap .catalog_pager A:hover {
+  text-decoration: none;
+}
+#wrap .catalog_pager A.act {
+  font: bold 21px tahoma;
+  color: #FDA630;
+  cursor: defaut;
+  text-decoration: none;
+}
+#wrap .catalog_pager A.pager_prev {
+  padding-left: 10px;
+  background: url(../images/pager_larr.png) no-repeat 0 5px;
+  text-decoration: none;
+}
+#wrap .catalog_pager A.pager_next {
+  padding-left: 10px;
+  background: url(../images/pager_rarr.png) no-repeat 0 5px;
+  text-decoration: none;
+}
+
+
+
 
 
 #wrap .catalog_goods_list .center_col .catalog_bottom_navi {
