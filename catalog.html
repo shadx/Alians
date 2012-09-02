@@ -6,9 +6,11 @@
   
   <link rel="stylesheet" type="text/css" href="css/style.css" />
   <link href="css/mycarousel.css" rel="stylesheet" type="text/css" media="screen" />
+  <link href="css/trackbar.css" rel="stylesheet" type="text/css" media="screen" />
   
   <script type="text/javascript" src="js/jquery.js"></script>
   <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+  <script type="text/javascript" src="js/jquery.ui-slider.js"></script>
   <script type="text/javascript" src="js/init.js"></script>
 </head>
 <body>
@@ -153,10 +155,29 @@
             </div>
             
             <div class="filter_head">Возраст:</div>
-            <img src="tmp/filter_d1.jpg" alt="" />
+            <div class="age_trackbar">
+              <input type="hidden" id="minAge" value="70000" />
+              <input type="hidden" id="maxAge" value="150000" />
+        			<div id="slider_age"></div>
+              
+              <!-- <div class="slider_age_text">
+                <span id="minAgeText">3</span> лет — <span id="maxAgeText">14</span> лет
+              </div> -->
+              <div class="slider_age_text">
+                <span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span>
+              </div>
+            </div>
             
             <div class="filter_head">Цена:</div>
-            <img src="tmp/filter_d2.jpg" alt="" />
+            <div class="price_trackbar">
+              <input type="hidden" id="minCost" value="70000" />
+              <input type="hidden" id="maxCost" value="150000" />
+        			<div id="slider_price"></div>
+              
+              <div class="slider_price_text">
+                <span id="minCostText">70000</span> руб — <span id="maxCostText">150000</span> руб
+              </div>
+            </div>
             
             <div class="filter_head">Длина (см.):</div>
             <div class="filter_diapazon">

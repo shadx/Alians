@@ -1,0 +1,137 @@
+#slider_price {
+	margin-top: 5px;
+  width: 209px;
+  height: 14px;
+}
+.price_trackbar .slider_price_text {
+	margin-top: 5px;
+  font: 10px/10px tahoma;
+  color: #6E6C6C;
+  text-align: center;
+}
+
+.price_trackbar .ui-slider {
+	position: relative;
+}
+.price_trackbar .ui-slider .ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	width: 12px;
+	height: 8px;
+	background: url(../images/trackbar/trackbar_polz.png) no-repeat 0 0px;
+	cursor: pointer;
+  outline: 0;
+}
+.price_trackbar .ui-slider .ui-slider-range {
+	position: absolute;
+	z-index: 1;
+	font-size: .7em;
+	display: block;
+	border: 0;
+	overflow: hidden;
+}
+.price_trackbar .ui-slider-horizontal {
+	height: 3px;
+}
+.price_trackbar .ui-slider-horizontal .ui-slider-handle { 
+	top: -5px;
+	margin-left: -6px;
+}
+.price_trackbar .ui-slider-horizontal .ui-slider-range {
+	top: 0;
+	height: 100%;
+}
+.price_trackbar .ui-slider-horizontal .ui-slider-range-min { 
+	left: 0;
+}
+.price_trackbar .ui-slider-horizontal .ui-slider-range-max {
+	right: 0;
+}
+.price_trackbar .ui-widget-content { 
+	background: url(../images/trackbar/trackbar_track.png) repeat-x 0 0;
+}
+.price_trackbar .ui-widget-header { 
+	background: url(../images/trackbar/trackbar_track-act.png) repeat-x 0 0;
+  border-radius: 5px;
+}
+.price_trackbar .ui-corner-all {
+	border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+#slider_age {
+	margin-top: 5px;
+  width: 209px;
+  height: 14px;
+}
+.age_trackbar {
+  
+}
+.age_trackbar .slider_age_text {
+	margin: 5px 0 0 3px;
+  font: 9px/9px tahoma;
+  color: #545454;
+  overflow: hidden;
+}
+.age_trackbar .slider_age_text SPAN {
+	float: left;
+  display: block;
+  width: 9px;
+  padding-right: 8px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.age_trackbar .ui-slider {
+	position: relative;
+}
+.age_trackbar .ui-slider .ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	width: 12px;
+	height: 8px;
+	background: url(../images/trackbar/trackbar_polz.png) no-repeat 0 0px;
+	cursor: pointer;
+  outline: 0;
+}
+.age_trackbar .ui-slider .ui-slider-range {
+	position: absolute;
+	z-index: 1;
+	font-size: .7em;
+	display: block;
+	border: 0;
+	overflow: hidden;
+}
+.age_trackbar .ui-slider-horizontal {
+	height: 3px;
+}
+.age_trackbar .ui-slider-horizontal .ui-slider-handle { 
+	top: -5px;
+	margin-left: -6px;
+}
+.age_trackbar .ui-slider-horizontal .ui-slider-range {
+	top: 0;
+	height: 100%;
+}
+.age_trackbar .ui-slider-horizontal .ui-slider-range-min { 
+	left: 0;
+}
+.age_trackbar .ui-slider-horizontal .ui-slider-range-max {
+	right: 0;
+}
+.age_trackbar .ui-widget-content { 
+	background: url(../images/trackbar/trackbar_track2.png) repeat-x 0 0;
+}
+.age_trackbar .ui-widget-header { 
+	background: url(../images/trackbar/trackbar_track2-act.png) repeat-x 0 0;
+  border-radius: 5px;
+}
+.age_trackbar .ui-corner-all {
+	border-radius: 5px;
+}
