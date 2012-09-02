@@ -4,7 +4,17 @@
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   <title></title>
   
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/selectBox.min.js"></script>
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $(".select_design").selectBox();
+    });
+  </script>
+  
   <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link href="css/selectBox2.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
 <body>
   <div id="wrapper">
@@ -48,7 +58,7 @@
           <li class="last"><a href="#">Где купить</a><div class="act_pointer"></div></li>
         </ul>
         <form class="topmenu_form" action="#">
-          <div><input class="text" type="text" value="Введите поисковый текст..." />
+          <div><input class="text" type="text" placeholder="Введите поисковый текст..." />
           <input class="ftp_button" type="submit" value="Поиск" /></div>
         </form>
       </div>
@@ -75,24 +85,30 @@
     <div class="center_col">
       <div class="selection_block">
         <span>от:</span>
-        <select name="select">
+        <select class="select_design select_size-2" name="select">
           <option>1</option>
         </select>
-        <select name="select">
+        <select class="select_design select_size-2" name="select">
           <option>1</option>
         </select>
-        <select class="ot_last" name="select">
+        <select class="select_design select_size-3" class="ot_last" name="select">
+          <option>2001</option>
+          <option>2002</option>
+          <option>2003</option>
+          <option>2004</option>
           <option>2005</option>
+          <option>2006</option>
+          <option>2007</option>
         </select>
         
-        <span>до:</span>
-        <select name="select">
+        <span>&nbsp;&nbsp;&nbsp;до:</span>
+        <select class="select_design select_size-2" name="select">
           <option>1</option>
         </select>
-        <select name="select">
+        <select class="select_design select_size-2" name="select">
           <option>1</option>
         </select>
-        <select class="do_last" name="select">
+        <select class="select_design select_size-3" class="do_last" name="select">
           <option>2005</option>
         </select>
         <input class="small_but small_orange_but" type="submit" value="Отбор по датам" />

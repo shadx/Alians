@@ -4,7 +4,17 @@
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   <title></title>
   
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/selectBox.min.js"></script>
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $(".select_design").selectBox();
+    });
+  </script>
+  
   <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link href="css/selectBox.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
 <body>
   <div id="wrapper">
@@ -48,7 +58,7 @@
           <li class="last"><a href="#">Где купить</a><div class="act_pointer"></div></li>
         </ul>
         <form class="topmenu_form" action="#">
-          <div><input class="text" type="text" value="Введите поисковый текст..." />
+          <div><input class="text" type="text" placeholder="Введите поисковый текст..." />
           <input class="ftp_button" type="submit" value="Поиск" /></div>
         </form>
       </div>
@@ -74,7 +84,7 @@
             
             <div class="form_row">
               <label>Плательщик:</label>
-              <select name="#"><option>Оформить на физ. лицо</option><option>Оформить на физ. лицо</option><option>Оформить на физ. лицо</option><option>Оформить на физ. лицо</option></select>
+              <select class="select_design select_size-1" name="#"><option>Оформить на физ. лицо</option><option>Оформить на юр. лицо</option><option>Оформить на физ. лицо</option><option>Оформить на юр. лицо</option><option>Оформить на физ. лицо</option><option>Оформить на юр. лицо</option><option>Оформить на физ. лицо</option><option>Оформить на юр. лицо</option></select>
             </div>
             <div class="form_row">
               <label>Договор:</label>
@@ -85,7 +95,7 @@
             
             <div class="form_row">
               <label>Получатель:</label>
-              <select name="#"><option>Оформить на физ. лицо</option><option>Оформить на физ. лицо</option><option>Оформить на физ. лицо</option><option>Оформить на физ. лицо</option></select>
+              <select class="select_design select_size-1" name="#"><option>Оформить на физ. лицо</option><option>Оформить на физ. лицо</option><option>Оформить на физ. лицо</option><option>Оформить на физ. лицо</option></select>
             </div>
             <div class="form_row">
               <label>Адрес:</label>
@@ -93,7 +103,7 @@
             </div>
             <div class="form_row">
               <label>Способ доставки:</label>
-              <select name="#"><option>............</option><option>............</option><option>............</option><option>............</option></select>
+              <select class="select_design select_size-1" name="#"><option>............</option><option>............</option><option>............</option><option>............</option></select>
             </div>
             <div class="form_row">
               <label>Стоимость доставки:</label>
